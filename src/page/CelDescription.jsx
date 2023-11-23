@@ -5,6 +5,7 @@ import Footer from "../component/Footer";
 import shittyStars from "../utils/Celebrities-utils";
 import { useParams } from "react-router-dom";
 
+
 // cette fonction permet de recuperer une id de mon tableaux 
 
 function CelDescription() {
@@ -27,6 +28,7 @@ function CelDescription() {
                     <div><img src={CelFound.img} alt="" /></div>
                     <h3>{CelFound.name}</h3>
                     <p>{CelFound.bio}</p>
+                    
                     
                 </article>
           
