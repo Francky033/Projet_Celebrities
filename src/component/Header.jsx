@@ -9,6 +9,7 @@ function Header() {
           <li><Link to= "/">Home</Link></li>
           <li><Link to= "/celebrities">Celebrities</Link></li>
           <li><Link to= "/random">Random Celebrities</Link></li>
+          
         
           
         </ul>
